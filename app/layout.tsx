@@ -12,34 +12,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "MAVINIC DIGITAL - Contemporary Creative Studio",
+  description: "Design digital com precisão estética e estratégia. Sites modernos, minimalistas e estrategicamente projetados para marcas que valorizam presença.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
+    "Mavinic Digital",
+    "Design Digital",
+    "Web Design",
+    "Sites Profissionais",
+    "Design Minimalista",
+    "Marcelo",
+    "Estúdio Criativo",
+    "Landing Pages",
+    "SEO",
     "Portfolio",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Marcelo - Mavinic Digital" }],
+  creator: "Mavinic Digital",
+  publisher: "Mavinic Digital",
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    locale: "pt_BR",
+    url: "https://mavinicdigital.com",
+    title: "MAVINIC DIGITAL - Contemporary Creative Studio",
+    description: "Design digital com precisão estética e estratégia.",
+    siteName: "Mavinic Digital",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "MAVINIC DIGITAL - Contemporary Creative Studio",
+    description: "Design digital com precisão estética e estratégia.",
   },
   robots: {
     index: true,
@@ -66,9 +67,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        <link rel="canonical" href="https://mavinicdigital.com" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}

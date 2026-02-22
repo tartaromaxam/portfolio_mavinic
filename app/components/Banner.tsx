@@ -1,154 +1,57 @@
 "use client";
 
-import Image from "next/image";
-import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["Software Engineer", "UI/UX Designer", "React Native Developer"];
-  const [currentTextIndex, setCurrentTextIndex] = useState(0);
-  const [displayedText, setDisplayedText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [typingSpeed, setTypingSpeed] = useState(100);
-
-  useEffect(() => {
-    const currentText = texts[currentTextIndex];
-    
-    if (!isDeleting) {
-      // Typing effect
-      if (displayedText.length < currentText.length) {
-        const timeout = setTimeout(() => {
-          setDisplayedText(currentText.slice(0, displayedText.length + 1));
-        }, typingSpeed);
-        return () => clearTimeout(timeout);
-      } else {
-        // Finished typing, wait before deleting
-        const timeout = setTimeout(() => {
-          setIsDeleting(true);
-          setTypingSpeed(50); // Faster deletion
-        }, 2000);
-        return () => clearTimeout(timeout);
-      }
-    } else {
-      // Deleting effect
-      if (displayedText.length > 0) {
-        const timeout = setTimeout(() => {
-          setDisplayedText(currentText.slice(0, displayedText.length - 1));
-        }, typingSpeed);
-        return () => clearTimeout(timeout);
-      } else {
-        // Finished deleting, move to next text
-        setIsDeleting(false);
-        setTypingSpeed(100); // Reset typing speed
-        setCurrentTextIndex((prev) => (prev + 1) % texts.length);
-      }
-    }
-  }, [displayedText, isDeleting, currentTextIndex, texts, typingSpeed]);
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-20 px-6"
+      className="min-h-screen flex items-center justify-center pt-24 px-6 bg-[#0A0A0A]"
     >
       <div className="container mx-auto max-w-6xl">
-        <div className="flex flex-col lg:flex-row items-center ">
-          {/* Left side - Text content */}
-          {/* Right side - Character image */}
-          <div className="flex justify-center lg:justify-end relative w-full lg:w-auto">
-            <div className="relative top-10">
-              {/* Mobile: Hello text positioned on top of image */}
-              <div className="lg:hidden  -top-150 z-10">
-                <div className="relative inline-block ">
-                  <Image
-                    src="/assets/arrow.png"
-                    alt="Arrow pointer"
-                    width={80}
-                    height={80}
-                    className="absolute top-5 rotate-z-280"
-                    style={{ width: "auto", height: "auto" }}
-                  />
-                  <div className="relative">
-                    <p className="text-white text-lg whitespace-nowrap">
-                      Hello! I Am{" "}
-                      <span className="text-purple-400">Ibrahim Memon</span>
-                    </p>
-                  </div>
-                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
-                </div>
-              </div>
-              <Image
-                src="/assets/me.png"
-                alt="Ibrahim Memon - Software Engineer and Designer"
-                width={300}
-                height={300}
-                className=" max-w-md absolute"
-                style={{ width: "auto", height: "auto" }}
-                priority
-              />
-              <Image
-                src="/assets/me-glow.png"
-                alt="Ibrahim Memon - Software Engineer and Designer"
-                width={300}
-                height={300}
-                className="max-w-md "
-                style={{ width: "auto", height: "auto" }}
-                priority
-              />
-            </div>
-          </div>
-          <div className="flex-1 space-y-6 text-center lg:text-left">
-            {/* Desktop: Hello text in original position */}
-            <div className="hidden lg:inline-block relative">
-              <Image
-                src="/assets/arrow.png"
-                alt="Arrow pointer"
-                width={100}
-                height={100}
-                className="absolute "
-                style={{ left: "-100px", top: "-50px", width: "auto", height: "auto" }}
-              />
-              <div style={{ bottom: 40, position: "relative" }}>
-                <p className="text-white text-lg">
-                  Hello! I Am{" "}
-                  <span className="text-purple-400">Ibrahim Memon</span>
-                </p>
-              </div>
-              <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
-            </div>
-            <div className="">
-              <p className="text-2xl"> A Designer who </p>
-              <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
-                Judges a book
-                <br /> by its{" "}
-                <span className="relative inline-block">
-                  <Image src="/assets/circle.png" alt="Circle" width={200} height={200} className="absolute mt-2" />
-                  <span className="bg-gradient-to-r from-violet-600 via-violet-400 to-violet-600 bg-clip-text text-transparent">
-                    cover
-                  </span>
-                </span>
-                ...
-              </h1>
-              <p className="text-md text-white/80">
-                Because if the cover does not impress you what else can?
-              </p>
-            </div>
-          </div>
+        {/* Subtitle */}
+        <div className="text-center mb-8">
+          <p className="text-white/50 text-xs tracking-[0.25em] uppercase font-light">
+            Contemporary Creative Studio
+          </p>
         </div>
-        <div className="space-y-3 pt-15 text-center lg:text-left">
-          <p className="text-5xl text-white font-bold">
-            I&apos;m a {displayedText}
-            <span className="animate-pulse">|</span>
+
+        {/* Main Heading */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight tracking-tight mb-6">
+            Construímos experiências
+            <br />
+            digitais com{" "}
+            <span className="font-normal italic">identidade</span>
+            <br />e <span className="font-normal">precisão.</span>
+          </h1>
+          <p className="text-white/60 text-base md:text-lg max-w-2xl mx-auto font-light leading-relaxed">
+            Sites modernos, minimalistas e estrategicamente projetados para marcas que valorizam presença.
           </p>
-          <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
-            <span>Currently, I&apos;m a Software Engineer at</span>
-            <span className="flex items-center gap-2">
-              <Image src="/assets/webhr.webp" alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
-              <span className="text-blue-400 font-semibold">WebHR,</span>
-            </span>
-          </p>
-          <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
-            A self-taught UI/UX designer, functioning in the industry for 3+
-            years now. I make meaningful and delightful digital products that
-            create an equilibrium between user needs and business goals.
-          </p>
+        </div>
+
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
+          <Link
+            href="#contato"
+            className="px-8 py-4 bg-white text-black text-sm font-normal hover:bg-white/90 transition-all tracking-wide w-full sm:w-auto text-center"
+          >
+            Iniciar Projeto
+          </Link>
+          <Link
+            href="#portfolio"
+            className="px-8 py-4 border border-white/20 text-white text-sm font-light hover:border-white/40 hover:bg-white/5 transition-all tracking-wide w-full sm:w-auto text-center"
+          >
+            Explorar Trabalhos
+          </Link>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="flex justify-center">
+          <div className="flex flex-col items-center gap-2 text-white/30">
+            <span className="text-xs tracking-widest uppercase font-light">Scroll</span>
+            <div className="w-px h-12 bg-gradient-to-b from-white/30 to-transparent"></div>
+          </div>
         </div>
       </div>
     </section>
