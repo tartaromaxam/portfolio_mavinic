@@ -12,54 +12,57 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    category: "Projeto Conceito — Dentista",
-    title: "Clínica Odontológica Digital",
+    category: "Estudo de Caso",
+    title: "Clínica Odontológica",
     description:
-      "Site de alta autoridade para consultório odontológico. Design clean e profissional que transmite confiança, facilitando agendamentos e posicionando o especialista no digital.",
-    image: "https://picsum.photos/800/600?grayscale",
+      "Reposicionamento focado em autoridade e conversão. Hierarquia visual clara e performance estratégica.",
+    image: "/images/projects/dental_clinic.png",
   },
   {
     id: 2,
-    category: "Projeto Conceito — Pet Shop",
-    title: "Presença Digital Afetiva",
+    category: "Estudo de Caso",
+    title: "Restaurante Contemporâneo",
     description:
-      "Site caloroso e estratégico para pet shop. Layout que conecta emocionalmente com os tutores, exibe serviços com clareza e converte visitantes em clientes fiéis.",
-    image: "https://picsum.photos/800/600?grayscale&random=5",
+      "Experiência digital imersiva para gastronomia premium. Storytelling visual e funcionalidade intuitiva.",
+    image: "/images/projects/restaurant.png",
   },
   {
     id: 3,
-    category: "Projeto Conceito — Profissional Liberal",
-    title: "Identidade Digital Forte",
+    category: "Estudo de Caso",
+    title: "Pet Shop Premium",
     description:
-      "Identidade forte e presença digital estratégica. Site que posiciona o profissional como autoridade em sua área e gera credibilidade instantânea.",
-    image: "https://picsum.photos/800/600?grayscale&random=3",
+      "Identidade digital acolhedora e funcional. Foco em autoridade e presença de mercado.",
+    image: "/images/projects/pet_shop.png",
   },
 ];
 
 export default function Projects(): React.JSX.Element {
   return (
-    <section id="portfolio" className="py-32 px-6 bg-[#0A0A0A]">
-      <div className="container mx-auto max-w-7xl">
+    <section id="portfolio" className="py-[140px] lg:py-[160px] bg-[#0A0A0A]">
+      <div className="container mx-auto max-w-[1100px] px-8">
         {/* Section Header */}
         <div className="mb-20">
           <p className="text-white/40 text-xs tracking-[0.3em] uppercase font-light mb-2">
             Portfólio
           </p>
           <div className="w-12 h-px bg-white/10 mb-8"></div>
-          <h2 className="text-3xl md:text-5xl font-light text-white">
-            Trabalhos <span className="font-normal">Selecionados</span>
+          <p className="text-white/20 text-[10px] tracking-[0.3em] uppercase font-light mb-4">
+            Projetos Conceituais
+          </p>
+          <h2 className="text-3xl md:text-5xl font-medium text-white leading-[1.2] tracking-[-0.02em]">
+            Trabalhos <span className="font-semibold">Selecionados</span>
           </h2>
         </div>
 
         {/* Projects Grid */}
-        <div className="space-y-24">
+        <div className="space-y-[120px]">
           {projects.map((project, index) => {
             const isEven = index % 2 === 1;
 
             return (
               <div
                 key={project.id}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${isEven ? "lg:grid-flow-dense" : ""
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${isEven ? "lg:grid-flow-dense" : ""
                   }`}
               >
                 {/* Image */}
@@ -80,10 +83,10 @@ export default function Projects(): React.JSX.Element {
                   <p className="text-white/40 text-xs tracking-[0.25em] uppercase font-light mb-4">
                     {project.category}
                   </p>
-                  <h3 className="text-2xl md:text-3xl font-light text-white mb-6">
+                  <h3 className="text-2xl md:text-3xl font-light text-white mb-8">
                     {project.title}
                   </h3>
-                  <p className="text-white/60 text-base md:text-lg font-light leading-relaxed">
+                  <p className="text-white/85 text-base md:text-lg font-normal leading-[1.9]">
                     {project.description}
                   </p>
                 </div>
@@ -94,14 +97,14 @@ export default function Projects(): React.JSX.Element {
 
         {/* CTA */}
         <div className="mt-20 border-t border-white/5 pt-12 text-center">
-          <p className="text-white/60 text-base font-light mb-8 max-w-xl mx-auto">
-            Cada projeto é único. Estes são conceitos que demonstram nossa abordagem estratégica e visual.
+          <p className="text-white/60 text-base font-light mb-8 max-w-xl mx-auto italic">
+            Projeto autoral desenvolvido para demonstrar nossa abordagem estratégica e visual.
           </p>
           <Link
             href="#contato"
             className="inline-block px-10 py-4 bg-white text-black text-sm font-normal hover:bg-white/90 transition-all tracking-wide"
           >
-            Solicitar Orçamento
+            Solicitar Proposta
           </Link>
         </div>
       </div>

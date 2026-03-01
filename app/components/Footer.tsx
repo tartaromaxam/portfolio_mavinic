@@ -1,28 +1,27 @@
 import Link from "next/link";
+import Logo from "./Logo";
 
 export default function Footer(): React.JSX.Element {
   return (
-    <footer id="contato" className="py-24 px-6 bg-[#0A0A0A] border-t border-white/5">
-      <div className="container mx-auto max-w-6xl">
+    <footer id="contato" className="py-[180px] bg-[#0A0A0A] border-t border-white/5">
+      <div className="container mx-auto max-w-[1100px] px-8">
         {/* CTA Section */}
         <div className="text-center mb-20">
           <p className="text-white/40 text-xs tracking-[0.3em] uppercase font-light mb-8">
             Contato
           </p>
-          <h2 className="text-3xl md:text-5xl font-light text-white mb-6 leading-tight max-w-3xl mx-auto">
-            Sua marca merece uma presença digital{" "}
-            <span className="font-normal">à altura.</span>
+          <h2 className="text-3xl md:text-5xl font-medium text-white mb-12 leading-[1.2] tracking-[-0.02em] max-w-3xl mx-auto">
+            Pronto para elevar sua marca?
+            <br />
+            <span className="font-semibold italic text-white/90">Inicie seu projeto estratégico.</span>
           </h2>
-          <p className="text-white/60 text-lg font-light mb-10 max-w-xl mx-auto">
-            Vamos iniciar seu projeto.
-          </p>
           <Link
-            href="https://wa.me/5544988160797?text=Olá!%20Quero%20iniciar%20meu%20projeto%20com%20a%20Mavinic%20Digital."
+            href="https://wa.me/5544988160797?text=Olá!%20Gostaria%20de%20solicitar%20um%20diagnóstico%20estratégico%20com%20a%20Mavinic%20Digital."
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-10 py-4 bg-white text-black text-sm font-normal hover:bg-white/90 transition-all tracking-wide"
+            className="inline-block px-10 py-4 bg-white !text-[#0A0A0A] text-sm font-normal hover:bg-white/90 transition-all tracking-wide"
           >
-            Iniciar Projeto
+            Solicitar Diagnóstico
           </Link>
         </div>
 
@@ -30,14 +29,7 @@ export default function Footer(): React.JSX.Element {
         <div className="border-t border-white/5 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             {/* Brand */}
-            <div>
-              <p className="text-white text-sm tracking-[0.3em] uppercase font-light">
-                MAVINIC
-              </p>
-              <p className="text-white/40 text-xs font-light mt-1">
-                Contemporary Creative Studio
-              </p>
-            </div>
+            <Logo />
 
             {/* Contact */}
             <div className="text-center md:text-right">

@@ -1,7 +1,7 @@
 export default function About(): React.JSX.Element {
   return (
-    <section id="sobre" className="py-32 px-6 bg-[#0A0A0A]">
-      <div className="container mx-auto max-w-5xl">
+    <section id="sobre" className="py-[140px] lg:py-[160px] bg-[#0A0A0A]">
+      <div className="container mx-auto max-w-[1100px] px-8">
         {/* Section Label */}
         <div className="mb-16">
           <p className="text-white/40 text-xs tracking-[0.3em] uppercase font-light mb-2">
@@ -11,26 +11,22 @@ export default function About(): React.JSX.Element {
         </div>
 
         {/* Main Content */}
-        <div className="space-y-12">
-          <h2 className="text-3xl md:text-5xl font-light text-white leading-tight">
-            Estúdio Criativo
+        <div className="space-y-16">
+          <h2 className="text-3xl md:text-[40px] font-medium text-white leading-[1.3] tracking-[-0.02em] mb-8">
+            Estúdio autoral de
             <br />
-            <span className="font-normal">Contemporâneo</span>
+            <span className="font-semibold italic">estratégia digital</span>
           </h2>
 
-          <div className="space-y-6 max-w-3xl">
-            <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed">
-              A Mavinic Digital desenvolve sites estratégicos para negócios modernos que desejam se destacar no ambiente digital.
+          <div className="space-y-5 max-w-[600px]">
+            <p className="text-white/70 text-[17px] font-light leading-[1.9]">
+              Estratégia, identidade e execução com precisão.
             </p>
 
-            <p className="text-white/70 text-lg md:text-xl font-light leading-relaxed">
-              Fundada por Marcelo, a Mavinic nasceu com o propósito de unir design, estratégia e tecnologia em projetos que fortalecem a identidade e a presença online de cada cliente.
-            </p>
-
-            <p className="text-white/90 text-xl md:text-2xl font-light leading-relaxed italic mt-12">
-              Acreditamos que presença digital não é apenas estética.
+            <p className="text-white/90 text-[17px] font-light leading-[1.9] mt-12">
+              Presença digital não é apenas <span className="italic">visual.</span>
               <br />
-              <span className="text-white/60">É percepção, posicionamento e resultado.</span>
+              <span className="text-white/40">É posicionamento, percepção e autoridade.</span>
             </p>
           </div>
         </div>

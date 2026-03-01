@@ -1,0 +1,533 @@
+--- FTP SCAN ---
+
+Walking: /
+ - //.profile
+ - //.filebrowser
+
+Walking: //.filebrowser
+ - //.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //.filebrowser//.filebrowser/..
+ - //.filebrowser//.filebrowser/.
+ - //.config
+
+Walking: //.config
+ - //.config//.config/..
+ - //.config//.config/.
+ - //.config//.config/nextjs-nodejs
+ - //.logs
+
+Walking: //.logs
+ - //.logs//.logs/..
+ - //.logs//.logs/.
+ - //.api_token
+ - //.npm
+
+Walking: //.npm
+ - //.npm//.npm/_logs
+ - //.npm//.npm/..
+ - //.npm//.npm/_update-notifier-last-checked
+ - //.npm//.npm/.
+ - //.npm//.npm/_cacache
+ - //..
+
+Walking: //..
+ - //..//.profile
+ - //..//.filebrowser
+
+Walking: //..//.filebrowser
+ - //..//.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //..//.filebrowser//.filebrowser/..
+ - //..//.filebrowser//.filebrowser/.
+ - //..//.config
+
+Walking: //..//.config
+ - //..//.config//.config/..
+ - //..//.config//.config/.
+ - //..//.config//.config/nextjs-nodejs
+ - //..//.logs
+
+Walking: //..//.logs
+ - //..//.logs//.logs/..
+ - //..//.logs//.logs/.
+ - //..//.api_token
+ - //..//.npm
+
+Walking: //..//.npm
+ - //..//.npm//.npm/_logs
+ - //..//.npm//.npm/..
+ - //..//.npm//.npm/_update-notifier-last-checked
+ - //..//.npm//.npm/.
+ - //..//.npm//.npm/_cacache
+ - //..//..
+
+Walking: //..//..
+ - //..//..//.profile
+ - //..//..//.filebrowser
+
+Walking: //..//..//.filebrowser
+ - //..//..//.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //..//..//.filebrowser//.filebrowser/..
+ - //..//..//.filebrowser//.filebrowser/.
+ - //..//..//.config
+
+Walking: //..//..//.config
+ - //..//..//.config//.config/..
+ - //..//..//.config//.config/.
+ - //..//..//.config//.config/nextjs-nodejs
+ - //..//..//.logs
+
+Walking: //..//..//.logs
+ - //..//..//.logs//.logs/..
+ - //..//..//.logs//.logs/.
+ - //..//..//.api_token
+ - //..//..//.npm
+
+Walking: //..//..//.npm
+ - //..//..//.npm//.npm/_logs
+ - //..//..//.npm//.npm/..
+ - //..//..//.npm//.npm/_update-notifier-last-checked
+ - //..//..//.npm//.npm/.
+ - //..//..//.npm//.npm/_cacache
+ - //..//..//..
+
+Walking: //..//..//..
+ - //..//..//..//.profile
+ - //..//..//..//.filebrowser
+ - //..//..//..//.config
+ - //..//..//..//.logs
+ - //..//..//..//.api_token
+ - //..//..//..//.npm
+ - //..//..//..//..
+ - //..//..//..//.
+ - //..//..//..//public_html
+ - //..//..//..//domains
+ - //..//..//.
+
+Walking: //..//..//.
+ - //..//..//.//.profile
+ - //..//..//.//.filebrowser
+ - //..//..//.//.config
+ - //..//..//.//.logs
+ - //..//..//.//.api_token
+ - //..//..//.//.npm
+ - //..//..//.//..
+ - //..//..//.//.
+ - //..//..//.//public_html
+ - //..//..//.//domains
+ - //..//..//public_html
+
+Walking: //..//..//public_html
+ - //..//..//public_html//public_html/_not-found
+ - //..//..//public_html//public_html/__next._full.txt
+ - //..//..//public_html//public_html/projects
+ - //..//..//public_html//public_html/_not-found.html
+ - //..//..//public_html//public_html/favicon.ico
+ - //..//..//public_html//public_html/test_folder_discovery.html
+ - //..//..//public_html//public_html/404.html
+ - //..//..//public_html//public_html/check_path.html
+ - //..//..//public_html//public_html/__next._head.txt
+ - //..//..//public_html//public_html/index.txt
+ - //..//..//public_html//public_html/cards
+ - //..//..//public_html//public_html/__next._index.txt
+ - //..//..//public_html//public_html/..
+ - //..//..//public_html//public_html/_not-found.txt
+ - //..//..//public_html//public_html/assets
+ - //..//..//public_html//public_html/.
+ - //..//..//public_html//public_html/domains
+ - //..//..//public_html//public_html/_next
+ - //..//..//public_html//public_html/__next.__PAGE__.txt
+ - //..//..//public_html//public_html/index.html
+ - //..//..//public_html//public_html/logo
+ - //..//..//public_html//public_html/__next._tree.txt
+ - //..//..//domains
+
+Walking: //..//..//domains
+ - //..//..//domains//domains/..
+ - //..//..//domains//domains/.
+ - //..//..//domains//domains/mavinic.com
+ - //..//.
+
+Walking: //..//.
+ - //..//.//.profile
+ - //..//.//.filebrowser
+
+Walking: //..//.//.filebrowser
+ - //..//.//.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //..//.//.filebrowser//.filebrowser/..
+ - //..//.//.filebrowser//.filebrowser/.
+ - //..//.//.config
+
+Walking: //..//.//.config
+ - //..//.//.config//.config/..
+ - //..//.//.config//.config/.
+ - //..//.//.config//.config/nextjs-nodejs
+ - //..//.//.logs
+
+Walking: //..//.//.logs
+ - //..//.//.logs//.logs/..
+ - //..//.//.logs//.logs/.
+ - //..//.//.api_token
+ - //..//.//.npm
+
+Walking: //..//.//.npm
+ - //..//.//.npm//.npm/_logs
+ - //..//.//.npm//.npm/..
+ - //..//.//.npm//.npm/_update-notifier-last-checked
+ - //..//.//.npm//.npm/.
+ - //..//.//.npm//.npm/_cacache
+ - //..//.//..
+
+Walking: //..//.//..
+ - //..//.//..//.profile
+ - //..//.//..//.filebrowser
+ - //..//.//..//.config
+ - //..//.//..//.logs
+ - //..//.//..//.api_token
+ - //..//.//..//.npm
+ - //..//.//..//..
+ - //..//.//..//.
+ - //..//.//..//public_html
+ - //..//.//..//domains
+ - //..//.//.
+
+Walking: //..//.//.
+ - //..//.//.//.profile
+ - //..//.//.//.filebrowser
+ - //..//.//.//.config
+ - //..//.//.//.logs
+ - //..//.//.//.api_token
+ - //..//.//.//.npm
+ - //..//.//.//..
+ - //..//.//.//.
+ - //..//.//.//public_html
+ - //..//.//.//domains
+ - //..//.//public_html
+
+Walking: //..//.//public_html
+ - //..//.//public_html//public_html/_not-found
+ - //..//.//public_html//public_html/__next._full.txt
+ - //..//.//public_html//public_html/projects
+ - //..//.//public_html//public_html/_not-found.html
+ - //..//.//public_html//public_html/favicon.ico
+ - //..//.//public_html//public_html/test_folder_discovery.html
+ - //..//.//public_html//public_html/404.html
+ - //..//.//public_html//public_html/check_path.html
+ - //..//.//public_html//public_html/__next._head.txt
+ - //..//.//public_html//public_html/index.txt
+ - //..//.//public_html//public_html/cards
+ - //..//.//public_html//public_html/__next._index.txt
+ - //..//.//public_html//public_html/..
+ - //..//.//public_html//public_html/_not-found.txt
+ - //..//.//public_html//public_html/assets
+ - //..//.//public_html//public_html/.
+ - //..//.//public_html//public_html/domains
+ - //..//.//public_html//public_html/_next
+ - //..//.//public_html//public_html/__next.__PAGE__.txt
+ - //..//.//public_html//public_html/index.html
+ - //..//.//public_html//public_html/logo
+ - //..//.//public_html//public_html/__next._tree.txt
+ - //..//.//domains
+
+Walking: //..//.//domains
+ - //..//.//domains//domains/..
+ - //..//.//domains//domains/.
+ - //..//.//domains//domains/mavinic.com
+ - //..//public_html
+
+Walking: //..//public_html
+ - //..//public_html//public_html/_not-found
+ - //..//public_html//public_html/__next._full.txt
+ - //..//public_html//public_html/projects
+ - //..//public_html//public_html/_not-found.html
+ - //..//public_html//public_html/favicon.ico
+ - //..//public_html//public_html/test_folder_discovery.html
+ - //..//public_html//public_html/404.html
+ - //..//public_html//public_html/check_path.html
+ - //..//public_html//public_html/__next._head.txt
+ - //..//public_html//public_html/index.txt
+ - //..//public_html//public_html/cards
+ - //..//public_html//public_html/__next._index.txt
+ - //..//public_html//public_html/..
+ - //..//public_html//public_html/_not-found.txt
+ - //..//public_html//public_html/assets
+ - //..//public_html//public_html/.
+ - //..//public_html//public_html/domains
+ - //..//public_html//public_html/_next
+ - //..//public_html//public_html/__next.__PAGE__.txt
+ - //..//public_html//public_html/index.html
+ - //..//public_html//public_html/logo
+ - //..//public_html//public_html/__next._tree.txt
+ - //..//domains
+
+Walking: //..//domains
+ - //..//domains//domains/..
+ - //..//domains//domains/.
+ - //..//domains//domains/mavinic.com
+ - //.
+
+Walking: //.
+ - //.//.profile
+ - //.//.filebrowser
+
+Walking: //.//.filebrowser
+ - //.//.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //.//.filebrowser//.filebrowser/..
+ - //.//.filebrowser//.filebrowser/.
+ - //.//.config
+
+Walking: //.//.config
+ - //.//.config//.config/..
+ - //.//.config//.config/.
+ - //.//.config//.config/nextjs-nodejs
+ - //.//.logs
+
+Walking: //.//.logs
+ - //.//.logs//.logs/..
+ - //.//.logs//.logs/.
+ - //.//.api_token
+ - //.//.npm
+
+Walking: //.//.npm
+ - //.//.npm//.npm/_logs
+ - //.//.npm//.npm/..
+ - //.//.npm//.npm/_update-notifier-last-checked
+ - //.//.npm//.npm/.
+ - //.//.npm//.npm/_cacache
+ - //.//..
+
+Walking: //.//..
+ - //.//..//.profile
+ - //.//..//.filebrowser
+
+Walking: //.//..//.filebrowser
+ - //.//..//.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //.//..//.filebrowser//.filebrowser/..
+ - //.//..//.filebrowser//.filebrowser/.
+ - //.//..//.config
+
+Walking: //.//..//.config
+ - //.//..//.config//.config/..
+ - //.//..//.config//.config/.
+ - //.//..//.config//.config/nextjs-nodejs
+ - //.//..//.logs
+
+Walking: //.//..//.logs
+ - //.//..//.logs//.logs/..
+ - //.//..//.logs//.logs/.
+ - //.//..//.api_token
+ - //.//..//.npm
+
+Walking: //.//..//.npm
+ - //.//..//.npm//.npm/_logs
+ - //.//..//.npm//.npm/..
+ - //.//..//.npm//.npm/_update-notifier-last-checked
+ - //.//..//.npm//.npm/.
+ - //.//..//.npm//.npm/_cacache
+ - //.//..//..
+
+Walking: //.//..//..
+ - //.//..//..//.profile
+ - //.//..//..//.filebrowser
+ - //.//..//..//.config
+ - //.//..//..//.logs
+ - //.//..//..//.api_token
+ - //.//..//..//.npm
+ - //.//..//..//..
+ - //.//..//..//.
+ - //.//..//..//public_html
+ - //.//..//..//domains
+ - //.//..//.
+
+Walking: //.//..//.
+ - //.//..//.//.profile
+ - //.//..//.//.filebrowser
+ - //.//..//.//.config
+ - //.//..//.//.logs
+ - //.//..//.//.api_token
+ - //.//..//.//.npm
+ - //.//..//.//..
+ - //.//..//.//.
+ - //.//..//.//public_html
+ - //.//..//.//domains
+ - //.//..//public_html
+
+Walking: //.//..//public_html
+ - //.//..//public_html//public_html/_not-found
+ - //.//..//public_html//public_html/__next._full.txt
+ - //.//..//public_html//public_html/projects
+ - //.//..//public_html//public_html/_not-found.html
+ - //.//..//public_html//public_html/favicon.ico
+ - //.//..//public_html//public_html/test_folder_discovery.html
+ - //.//..//public_html//public_html/404.html
+ - //.//..//public_html//public_html/check_path.html
+ - //.//..//public_html//public_html/__next._head.txt
+ - //.//..//public_html//public_html/index.txt
+ - //.//..//public_html//public_html/cards
+ - //.//..//public_html//public_html/__next._index.txt
+ - //.//..//public_html//public_html/..
+ - //.//..//public_html//public_html/_not-found.txt
+ - //.//..//public_html//public_html/assets
+ - //.//..//public_html//public_html/.
+ - //.//..//public_html//public_html/domains
+ - //.//..//public_html//public_html/_next
+ - //.//..//public_html//public_html/__next.__PAGE__.txt
+ - //.//..//public_html//public_html/index.html
+ - //.//..//public_html//public_html/logo
+ - //.//..//public_html//public_html/__next._tree.txt
+ - //.//..//domains
+
+Walking: //.//..//domains
+ - //.//..//domains//domains/..
+ - //.//..//domains//domains/.
+ - //.//..//domains//domains/mavinic.com
+ - //.//.
+
+Walking: //.//.
+ - //.//.//.profile
+ - //.//.//.filebrowser
+
+Walking: //.//.//.filebrowser
+ - //.//.//.filebrowser//.filebrowser/220b23db077a06219c5baa9e29e730a5907bf746-61WsxTl
+ - //.//.//.filebrowser//.filebrowser/..
+ - //.//.//.filebrowser//.filebrowser/.
+ - //.//.//.config
+
+Walking: //.//.//.config
+ - //.//.//.config//.config/..
+ - //.//.//.config//.config/.
+ - //.//.//.config//.config/nextjs-nodejs
+ - //.//.//.logs
+
+Walking: //.//.//.logs
+ - //.//.//.logs//.logs/..
+ - //.//.//.logs//.logs/.
+ - //.//.//.api_token
+ - //.//.//.npm
+
+Walking: //.//.//.npm
+ - //.//.//.npm//.npm/_logs
+ - //.//.//.npm//.npm/..
+ - //.//.//.npm//.npm/_update-notifier-last-checked
+ - //.//.//.npm//.npm/.
+ - //.//.//.npm//.npm/_cacache
+ - //.//.//..
+
+Walking: //.//.//..
+ - //.//.//..//.profile
+ - //.//.//..//.filebrowser
+ - //.//.//..//.config
+ - //.//.//..//.logs
+ - //.//.//..//.api_token
+ - //.//.//..//.npm
+ - //.//.//..//..
+ - //.//.//..//.
+ - //.//.//..//public_html
+ - //.//.//..//domains
+ - //.//.//.
+
+Walking: //.//.//.
+ - //.//.//.//.profile
+ - //.//.//.//.filebrowser
+ - //.//.//.//.config
+ - //.//.//.//.logs
+ - //.//.//.//.api_token
+ - //.//.//.//.npm
+ - //.//.//.//..
+ - //.//.//.//.
+ - //.//.//.//public_html
+ - //.//.//.//domains
+ - //.//.//public_html
+
+Walking: //.//.//public_html
+ - //.//.//public_html//public_html/_not-found
+ - //.//.//public_html//public_html/__next._full.txt
+ - //.//.//public_html//public_html/projects
+ - //.//.//public_html//public_html/_not-found.html
+ - //.//.//public_html//public_html/favicon.ico
+ - //.//.//public_html//public_html/test_folder_discovery.html
+ - //.//.//public_html//public_html/404.html
+ - //.//.//public_html//public_html/check_path.html
+ - //.//.//public_html//public_html/__next._head.txt
+ - //.//.//public_html//public_html/index.txt
+ - //.//.//public_html//public_html/cards
+ - //.//.//public_html//public_html/__next._index.txt
+ - //.//.//public_html//public_html/..
+ - //.//.//public_html//public_html/_not-found.txt
+ - //.//.//public_html//public_html/assets
+ - //.//.//public_html//public_html/.
+ - //.//.//public_html//public_html/domains
+ - //.//.//public_html//public_html/_next
+ - //.//.//public_html//public_html/__next.__PAGE__.txt
+ - //.//.//public_html//public_html/index.html
+ - //.//.//public_html//public_html/logo
+ - //.//.//public_html//public_html/__next._tree.txt
+ - //.//.//domains
+
+Walking: //.//.//domains
+ - //.//.//domains//domains/..
+ - //.//.//domains//domains/.
+ - //.//.//domains//domains/mavinic.com
+ - //.//public_html
+
+Walking: //.//public_html
+ - //.//public_html//public_html/_not-found
+ - //.//public_html//public_html/__next._full.txt
+ - //.//public_html//public_html/projects
+ - //.//public_html//public_html/_not-found.html
+ - //.//public_html//public_html/favicon.ico
+ - //.//public_html//public_html/test_folder_discovery.html
+ - //.//public_html//public_html/404.html
+ - //.//public_html//public_html/check_path.html
+ - //.//public_html//public_html/__next._head.txt
+ - //.//public_html//public_html/index.txt
+ - //.//public_html//public_html/cards
+ - //.//public_html//public_html/__next._index.txt
+ - //.//public_html//public_html/..
+ - //.//public_html//public_html/_not-found.txt
+ - //.//public_html//public_html/assets
+ - //.//public_html//public_html/.
+ - //.//public_html//public_html/domains
+ - //.//public_html//public_html/_next
+ - //.//public_html//public_html/__next.__PAGE__.txt
+ - //.//public_html//public_html/index.html
+ - //.//public_html//public_html/logo
+ - //.//public_html//public_html/__next._tree.txt
+ - //.//domains
+
+Walking: //.//domains
+ - //.//domains//domains/..
+ - //.//domains//domains/.
+ - //.//domains//domains/mavinic.com
+ - //public_html
+
+Walking: //public_html
+ - //public_html//public_html/_not-found
+ - //public_html//public_html/__next._full.txt
+ - //public_html//public_html/projects
+ - //public_html//public_html/_not-found.html
+ - //public_html//public_html/favicon.ico
+ - //public_html//public_html/test_folder_discovery.html
+ - //public_html//public_html/404.html
+ - //public_html//public_html/check_path.html
+ - //public_html//public_html/__next._head.txt
+ - //public_html//public_html/index.txt
+ - //public_html//public_html/cards
+ - //public_html//public_html/__next._index.txt
+ - //public_html//public_html/..
+ - //public_html//public_html/_not-found.txt
+ - //public_html//public_html/assets
+ - //public_html//public_html/.
+ - //public_html//public_html/domains
+ - //public_html//public_html/_next
+ - //public_html//public_html/__next.__PAGE__.txt
+ - //public_html//public_html/index.html
+ - //public_html//public_html/logo
+ - //public_html//public_html/__next._tree.txt
+ - //domains
+
+Walking: //domains
+ - //domains//domains/..
+ - //domains//domains/.
+ - //domains//domains/mavinic.com
+
+--- END SCAN ---

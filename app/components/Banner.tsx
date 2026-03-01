@@ -6,27 +6,24 @@ export default function Banner(): React.JSX.Element {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-24 px-6 bg-[#0A0A0A]"
+      className="min-h-screen flex items-center justify-center pt-[220px] pb-[200px] bg-[#0A0A0A]"
     >
-      <div className="container mx-auto max-w-6xl">
-        {/* Subtitle */}
+      <div className="container mx-auto max-w-[1100px] px-8">
         <div className="text-center mb-8">
           <p className="text-white/50 text-xs tracking-[0.25em] uppercase font-light">
-            Contemporary Creative Studio
+            Estúdio Digital Estratégico
           </p>
         </div>
 
         {/* Main Heading */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight tracking-tight mb-6">
-            Construímos experiências
+          <h1 className="text-4xl md:text-7xl lg:text-[80px] font-normal text-white leading-[1.1] tracking-[-0.02em] mb-8">
+            Marcas digitais com
             <br />
-            digitais com{" "}
-            <span className="font-normal italic">identidade</span>
-            <br />e <span className="font-normal">precisão.</span>
+            direção, identidade e <span className="font-semibold italic">presença.</span>
           </h1>
-          <p className="text-white/60 text-base md:text-lg max-w-2xl mx-auto font-light leading-relaxed">
-            Sites modernos, minimalistas e estrategicamente projetados para marcas que valorizam presença.
+          <p className="text-white/85 text-[18px] leading-[1.9] max-w-[620px] mx-auto font-normal">
+            Projetos autorais para negócios que valorizam estratégia e posicionamento.
           </p>
         </div>
 
@@ -34,9 +31,9 @@ export default function Banner(): React.JSX.Element {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20">
           <Link
             href="#contato"
-            className="px-8 py-4 bg-white text-black text-sm font-normal hover:bg-white/90 transition-all tracking-wide w-full sm:w-auto text-center"
+            className="px-8 py-4 bg-white !text-[#0A0A0A] text-sm font-normal hover:bg-white/90 transition-all tracking-wide w-full sm:w-auto text-center"
           >
-            Iniciar Projeto
+            Solicitar Proposta
           </Link>
           <Link
             href="#portfolio"
